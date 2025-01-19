@@ -1,0 +1,11 @@
+#### model
+model_name_or_path: llama3/8B-Instruct
+adapter_name_or_path: output/epoch1
+template: llama3
+finetuning_type: lora
+#
+#### export
+export_dir: models/export
+export_size: 2
+export_device: gpu
+export_legacy_format: false

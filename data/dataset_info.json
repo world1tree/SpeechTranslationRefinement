@@ -1,0 +1,67 @@
+{
+  "mustc-sft1-sent-train":{
+    "file_name" :"mustc/sft1/en-de/sent-train.json",
+    "columns":{
+    "prompt" : "instruction",
+    "query" : "input",
+    "response" : "output"
+    }
+  },
+  "mustc-sft2-sent-train":{
+    "file_name" :"mustc/sft2/en-de/sent-train.json",
+    "columns":{
+    "prompt" : "instruction",
+    "query" : "input",
+    "response" : "output"
+    }
+  },
+  "mustc-sft2-sent-valid":{
+    "file_name" :"mustc/sft2/en-de/sent-valid.json",
+    "columns":{
+    "prompt" : "instruction",
+    "query" : "input",
+    "response" : "output"
+    }
+  },
+  "mustc-sft2-sent-test":{
+    "file_name" :"mustc/sft2/en-de/sent-test.json",
+    "columns":{
+    "prompt" : "instruction",
+    "query" : "input",
+    "response" : "output"
+    }
+  },
+
+  "mustc-sft1-doc3-train":{
+    "file_name" :"mustc/sft1/en-de/doc3-train.json",
+    "columns":{
+    "prompt" : "instruction",
+    "query" : "input",
+    "response" : "output"
+    }
+  },
+  "mustc-sft2-doc3-train":{
+    "file_name" :"mustc/sft2/en-de/doc3-train.json",
+    "columns":{
+    "prompt" : "instruction",
+    "query" : "input",
+    "response" : "output"
+    }
+  },
+  "mustc-sft2-doc3-valid":{
+    "file_name" :"mustc/sft2/en-de/doc3-valid.json",
+    "columns":{
+    "prompt" : "instruction",
+    "query" : "input",
+    "response" : "output"
+    }
+  },
+  "mustc-sft2-doc3-test":{
+    "file_name" :"mustc/sft2/en-de/doc3-test.json",
+    "columns":{
+    "prompt" : "instruction",
+    "query" : "input",
+    "response" : "output"
+    }
+  }
+}

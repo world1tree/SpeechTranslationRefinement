@@ -1,0 +1,25 @@
+### model
+model_name_or_path: /public/home/zhxgong/hxdou/0-Inbox/Refine/sft1/models/llama3_lora_stage1_3519
+adapter_name_or_path: /public/home/zhxgong/hxdou/0-Inbox/Refine/sft2/output/checkpoint-10400
+
+### method
+stage: sft
+do_predict: true
+finetuning_type: lora
+num_beams: 3
+
+### dataset
+dataset_dir: /public/home/zhxgong/hxdou/0-Inbox/Refine/data
+dataset: sent-test-v4
+template: llama3
+cutoff_len: 4096
+overwrite_cache: true
+preprocessing_num_workers: 8
+
+### output
+output_dir: predict_10400
+overwrite_output_dir: true
+
+### eval
+per_device_eval_batch_size: 8
+predict_with_generate: true
